@@ -6,6 +6,7 @@ public class ScoreCounter : MonoBehaviour
 {
 
     public static int Score = 0;
+    public static string ScoreText = "";
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +17,7 @@ public class ScoreCounter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GetComponent<UnityEngine.UI.Text>().text = Score.ToString();
+        ScoreText = Score.ToString();
+        GetComponent<UnityEngine.UI.Text>().text = ScoreText;
     }
 }
