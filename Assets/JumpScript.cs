@@ -18,7 +18,7 @@ public class JumpScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("space")) {
+        if (Input.GetKeyDown("space") || Input.GetMouseButtonDown(0)) {
             Vogel.velocity = Vector2.up * velocity;
             GetComponent<Animator>().Play("Fly Animation",  -1, 0f);
 
