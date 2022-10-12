@@ -20,6 +20,7 @@ public class JumpScript : MonoBehaviour
     {
         if (Input.GetKeyDown("space")) {
             Vogel.velocity = Vector2.up * velocity;
+            GetComponent<Animator>().Play("Fly Animation",  -1, 0f);
         }
     }
 

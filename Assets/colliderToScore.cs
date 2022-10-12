@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class colliderToScore : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D collisionw) {
+    private void OnTriggerEnter2D(Collider2D collision) {
         ScoreCounter.Score++;
     }
 }
