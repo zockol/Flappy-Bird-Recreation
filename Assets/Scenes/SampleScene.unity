@@ -414,7 +414,7 @@ GameObject:
   - component: {fileID: 467548646}
   - component: {fileID: 467548648}
   m_Layer: 0
-  m_Name: Hintergrund
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -518,7 +518,7 @@ GameObject:
   - component: {fileID: 505781966}
   - component: {fileID: 505781965}
   m_Layer: 0
-  m_Name: RohrSpawner
+  m_Name: PipeSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -537,7 +537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxTime: 1.7
-  Rohr: {fileID: 6192730107067296015, guid: 465e89bae522c9f449955aa0bd769665, type: 3}
+  PipeAsset: {fileID: 6192730107067296015, guid: 465e89bae522c9f449955aa0bd769665, type: 3}
   hoehe: 2.6
 --- !u!4 &505781966
 Transform:
@@ -652,6 +652,7 @@ GameObject:
   - component: {fileID: 596803332}
   - component: {fileID: 596803336}
   - component: {fileID: 596803335}
+  - component: {fileID: 596803337}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -763,6 +764,26 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!95 &596803337
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596803330}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 01fcc158d2888834e91e492bce56fa76, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &951685957
 GameObject:
   m_ObjectHideFlags: 0
@@ -1176,7 +1197,7 @@ GameObject:
   - component: {fileID: 1917652263}
   - component: {fileID: 1917652264}
   m_Layer: 0
-  m_Name: Boden
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1310,7 +1331,7 @@ GameObject:
   - component: {fileID: 1969435245}
   - component: {fileID: 1969435246}
   m_Layer: 0
-  m_Name: Vogel
+  m_Name: Bird
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1442,7 +1463,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1969435239}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 28b0ca1edf107784ca284286fcda2353, type: 2}
   m_CullingMode: 0
