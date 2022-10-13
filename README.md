@@ -44,14 +44,12 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#build-and-play">Build and Play</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#todolist">To-Do-List</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -75,56 +73,49 @@ I started this project with a YouTube Guide and decided to take it further and d
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+By following simple steps, you will be able to open this Project by yourself and develope it further or even build to play it.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+[Unity](https://unity.com/de/download)
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
+1. Download [Unity](https://unity.com/de/download)
+
+2. Open your Terminal and locate the directory where u want the project to be located
+
+3. Clone the Repository
+
+   ```
    git clone https://github.com/zockol/Flappy-Bird-Recreation.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
-   ```
+
+4. Start Unity Hub, press Open and locate the cloned Repository.
+
+5. Feel free to Develope further
+
+### Build and Play
+
+1. Press on `File` on the menubar
+
+2. Locate `Build and Settings`
+
+3. Select `Windows, Mac, Linux` as Platform
+
+4. Press `Build And Run`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- USAGE EXAMPLES -->
+## To-Do-List
 
-## Usage
+- Menu
+- Highscore
+- Game Over Rework
+- Points (sum of Score)
+- Skinshop (Skins are bought with points)
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ROADMAP -->
-
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-  - [ ] Nested Feature
-
-See the [open issues](https://github.com/zockol/Flappy-Bird-Recreation/issues) for a full list of proposed features (and known issues).
+Feel free to [open issues](https://github.com/zockol/Flappy-Bird-Recreation/issues) to submit feature ideas and see a list of known issues.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,31 +136,13 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
-
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTACT -->
 
 ## Contact
 
-Your Name - [@zockoL](https://twitter.com/zockoL) -
+Patrick Zockol - [@zockoL](https://twitter.com/zockoL)
 
 Project Link: [https://github.com/zockol/Flappy-Bird-Recreation](https://github.com/zockol/Flappy-Bird-Recreation)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
-
-## Acknowledgments
-
-- []()
-- []()
-- []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
