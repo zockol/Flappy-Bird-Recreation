@@ -13,16 +13,27 @@ public class JumpScript : MonoBehaviour
     void Start()
     {
         Vogel = GetComponent<Rigidbody2D>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("space") || Input.GetMouseButtonDown(0)) {
+
+        if (Input.GetKeyDown("space")) {
+
+            if (GetComponent<Animator>().enabled == false) {
+                GetComponent<Animator>().enabled = true;
+            }
+
             Vogel.velocity = Vector2.up * velocity;
-            GetComponent<Animator>().Play("Fly Animation",  -1, 0f);
+            if (Time.deltaTime != 0) {
+                GetComponent<Animator>().Play("Fly Animation",  -1, 0f);
+            }
+            
 
         }
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {
