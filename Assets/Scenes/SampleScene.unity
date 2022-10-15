@@ -269,6 +269,7 @@ GameObject:
   - component: {fileID: 226889595}
   - component: {fileID: 226889597}
   - component: {fileID: 226889596}
+  - component: {fileID: 226889598}
   m_Layer: 5
   m_Name: Shiny Silver
   m_TagString: Untagged
@@ -334,6 +335,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 226889594}
   m_CullTransparentMesh: 1
+--- !u!114 &226889598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226889594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 006fe26841c7e844c933934cce210ffa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScoreMin: 15
+  ScoreMax: 29
 --- !u!1 &354612244
 GameObject:
   m_ObjectHideFlags: 0
@@ -884,6 +899,7 @@ GameObject:
   - component: {fileID: 898010084}
   - component: {fileID: 898010086}
   - component: {fileID: 898010085}
+  - component: {fileID: 898010087}
   m_Layer: 5
   m_Name: Shiny Gold
   m_TagString: Untagged
@@ -949,6 +965,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 898010083}
   m_CullTransparentMesh: 1
+--- !u!114 &898010087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898010083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 006fe26841c7e844c933934cce210ffa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScoreMin: 50
+  ScoreMax: 2147483647
 --- !u!1 &948893947
 GameObject:
   m_ObjectHideFlags: 0
@@ -961,7 +991,6 @@ GameObject:
   - component: {fileID: 948893952}
   - component: {fileID: 948893951}
   - component: {fileID: 948893950}
-  - component: {fileID: 948893949}
   m_Layer: 5
   m_Name: Highscore
   m_TagString: Untagged
@@ -989,18 +1018,6 @@ RectTransform:
   m_AnchoredPosition: {x: 136, y: -70}
   m_SizeDelta: {x: 194.0554, y: 55.173}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &948893949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 948893947}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c4e637490ff6e7418b2161906a40da2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &948893950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1144,7 +1161,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1112649898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1748,6 +1765,7 @@ GameObject:
   - component: {fileID: 2103224748}
   - component: {fileID: 2103224750}
   - component: {fileID: 2103224749}
+  - component: {fileID: 2103224751}
   m_Layer: 5
   m_Name: Silver
   m_TagString: Untagged
@@ -1813,6 +1831,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2103224747}
   m_CullTransparentMesh: 1
+--- !u!114 &2103224751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103224747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 006fe26841c7e844c933934cce210ffa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScoreMin: 0
+  ScoreMax: 14
 --- !u!1 &2120827657
 GameObject:
   m_ObjectHideFlags: 0
@@ -1824,6 +1856,7 @@ GameObject:
   - component: {fileID: 2120827658}
   - component: {fileID: 2120827660}
   - component: {fileID: 2120827659}
+  - component: {fileID: 2120827661}
   m_Layer: 5
   m_Name: Gold
   m_TagString: Untagged
@@ -1889,6 +1922,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2120827657}
   m_CullTransparentMesh: 1
+--- !u!114 &2120827661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120827657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 006fe26841c7e844c933934cce210ffa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScoreMin: 30
+  ScoreMax: 49
 --- !u!1 &2135031164
 GameObject:
   m_ObjectHideFlags: 0
