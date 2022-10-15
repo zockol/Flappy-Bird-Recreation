@@ -11,13 +11,14 @@ public class FadeOutScore : MonoBehaviour
         if (Time.deltaTime > 0) {
             GetComponent<Animator>().enabled = false;
             GetComponent<Animator>().enabled = true;
-            GetComponent<Animator>().Play("Score Fade In");
+            //GetComponent<Animator>().Play("Score Fade In");
             FadedIn = true;
         }
         if (Time.deltaTime <= 0 && FadedIn == true) {
             GetComponent<Animator>().enabled = false;
             GetComponent<Animator>().enabled = true;
             GetComponent<Animator>().Play("Score Fade Out");
+            FadedIn = false;
         }
     }
 }
