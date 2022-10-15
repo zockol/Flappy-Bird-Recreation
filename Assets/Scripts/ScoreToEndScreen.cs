@@ -13,6 +13,6 @@ public class ScoreToEndScreen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        GetComponent<UnityEngine.UI.Text>().text = ScoreCounter.Score.ToString();
     }
 }
