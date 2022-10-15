@@ -110,8 +110,6 @@ By following simple steps, you will be able to open this Project by yourself and
 ## To-Do-List
 
 - Menu
-- Highscore
-- Game Over Rework
 - Points (sum of Score)
 - Skinshop (Skins are bought with points)
 
