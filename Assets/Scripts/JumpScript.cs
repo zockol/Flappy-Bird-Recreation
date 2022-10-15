@@ -9,6 +9,8 @@ public class JumpScript : MonoBehaviour
     private Rigidbody2D Vogel;
     public GameOverScript gameManager;
 
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,17 +28,24 @@ public class JumpScript : MonoBehaviour
                 GetComponent<Animator>().enabled = true;
             }
 
-            Vogel.velocity = Vector2.up * velocity;
+            if (transform.position.y < 4.5) {
+                Vogel.velocity = Vector2.up * velocity;
+            } else {
+                Vogel.velocity = Vector2.up * 1;
+            }
             if (Time.deltaTime != 0) {
                 GetComponent<Animator>().Play("Fly Animation",  -1, 0f);
             }
             
 
         }
-
     }
-
     private void OnCollisionEnter2D(Collision2D collision) {
         gameManager.GameOver();
     }
 }
+
+    
+
+
+
