@@ -59,7 +59,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/zockol/Flappy-Bird-Recreation)
 
-I started this project with a YouTube Guide and decided to take it further and develope more features into it to get started into Unity. There is no real purpose for it but learning.
+I started this project with a YouTube Guide and decided to take it further and develope more features into it to get started into Unity. There is no real purpose for it but learning. Special Credits to [Valem](https://www.youtube.com/c/ValemVR) for the quick guide to getting started!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
