@@ -21,6 +21,7 @@ public class activateMedal : MonoBehaviour
         if (ScoreCounter.Score >= ScoreMin && ScoreCounter.Score < ScoreMax) {
             GetComponent<UnityEngine.UI.Image>().enabled = true;
             if (Time.deltaTime <= 0) {
+                GetComponent<Animator>().enabled = true;
                 GetComponent<Animator>().Play("MedalFadeIn");
             }
         } else {
