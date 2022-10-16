@@ -270,6 +270,7 @@ GameObject:
   - component: {fileID: 226889597}
   - component: {fileID: 226889596}
   - component: {fileID: 226889598}
+  - component: {fileID: 226889599}
   m_Layer: 5
   m_Name: Shiny Silver
   m_TagString: Untagged
@@ -349,6 +350,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScoreMin: 15
   ScoreMax: 29
+--- !u!95 &226889599
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226889594}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8392dad77fc5b874d86ec15932a363a9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 2
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &354612244
 GameObject:
   m_ObjectHideFlags: 0
@@ -900,6 +921,7 @@ GameObject:
   - component: {fileID: 898010086}
   - component: {fileID: 898010085}
   - component: {fileID: 898010087}
+  - component: {fileID: 898010088}
   m_Layer: 5
   m_Name: Shiny Gold
   m_TagString: Untagged
@@ -979,6 +1001,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScoreMin: 50
   ScoreMax: 2147483647
+--- !u!95 &898010088
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898010083}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8392dad77fc5b874d86ec15932a363a9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &948893947
 GameObject:
   m_ObjectHideFlags: 0
@@ -1779,6 +1821,7 @@ GameObject:
   - component: {fileID: 2103224750}
   - component: {fileID: 2103224749}
   - component: {fileID: 2103224751}
+  - component: {fileID: 2103224752}
   m_Layer: 5
   m_Name: Silver
   m_TagString: Untagged
@@ -1813,7 +1856,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2103224747}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -1858,6 +1901,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScoreMin: 0
   ScoreMax: 14
+--- !u!95 &2103224752
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103224747}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8392dad77fc5b874d86ec15932a363a9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 2
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2120827657
 GameObject:
   m_ObjectHideFlags: 0
@@ -1870,6 +1933,7 @@ GameObject:
   - component: {fileID: 2120827660}
   - component: {fileID: 2120827659}
   - component: {fileID: 2120827661}
+  - component: {fileID: 2120827662}
   m_Layer: 5
   m_Name: Gold
   m_TagString: Untagged
@@ -1949,6 +2013,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScoreMin: 30
   ScoreMax: 49
+--- !u!95 &2120827662
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120827657}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8392dad77fc5b874d86ec15932a363a9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2135031164
 GameObject:
   m_ObjectHideFlags: 0

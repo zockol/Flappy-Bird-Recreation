@@ -8,6 +8,7 @@ public class activateMedal : MonoBehaviour
     public int ScoreMin;
     public int ScoreMax;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,9 @@ public class activateMedal : MonoBehaviour
     {   
         if (ScoreCounter.Score >= ScoreMin && ScoreCounter.Score < ScoreMax) {
             GetComponent<UnityEngine.UI.Image>().enabled = true;
+            if (Time.deltaTime <= 0) {
+                GetComponent<Animator>().Play("MedalFadeIn");
+            }
         } else {
             GetComponent<UnityEngine.UI.Image>().enabled = false;
         }
