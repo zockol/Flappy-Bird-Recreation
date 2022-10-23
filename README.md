@@ -110,8 +110,7 @@ By following simple steps, you will be able to open this Project by yourself and
 ## To-Do-List
 
 - Menu
-- Points (sum of Score)
-- Skinshop (Skins are bought with points)
+- few more sounds
 
 Feel free to [open issues](https://github.com/zockol/Flappy-Bird-Recreation/issues) to submit feature ideas and see a list of known issues.
 
