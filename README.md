@@ -85,15 +85,15 @@ By following simple steps, you will be able to open this Project by yourself and
 
 2. Open your Terminal and locate the directory where u want the project to be located
 
-3. Clone the Repository
+3. Clone the repository
 
    ```
    git clone https://github.com/zockol/Flappy-Bird-Recreation.git
    ```
 
-4. Start Unity Hub, press Open and locate the cloned Repository.
+4. Start Unity Hub, press open and locate the cloned repository.
 
-5. Feel free to Develope further
+5. Feel free to develop further
 
 ### Build and Play
 
@@ -101,7 +101,7 @@ By following simple steps, you will be able to open this Project by yourself and
 
 2. Locate `Build and Settings`
 
-3. Select `Windows, Mac, Linux` as Platform
+3. Select `Windows, Mac, Linux` as platform
 
 4. Press `Build And Run`
 
